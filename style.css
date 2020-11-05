@@ -1,0 +1,165 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+/*---------------Navbar section---------  */
+.navbar{
+    margin:0;
+    border-radius:0px;
+    z-index: 100;
+    height: 40px;
+}
+.navbar-brand{
+padding: 10px;
+}
+.navbar-brand img{
+    height: 40x;
+    width: 60px;
+}
+
+nav ul .navbar-nav li a{
+    color: #ffffff !important;
+}
+
+nav ul .navbar-nav ul li a:hover{
+    border-bottom: 3px solid #ffffff;
+}
+
+.navbar ul li a{
+    padding: 15px;
+    color: #ffffff;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.navbar-collapse{
+    margin-right: 70px;
+}
+section{
+    height:720px;
+}
+
+body{
+    background: url("home.jpeg");
+    background-size: 1600px;
+    background-repeat: no-repeat center center/cover;
+    background-attachment: fixed;
+    padding: 30px 40px;
+    margin:0;
+
+}
+
+.intro{
+    position: relative;
+    margin: 150px 50px auto 850px;
+    width: 500px;
+    text-align: center;
+}
+
+.intro h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*--------table.php---------  */
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    margin-top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+ 
+
+table th tr td{
+    border:1px solid black;
+}
+
+.centre{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+table{
+    width: 700px;
+    height: 500px;
+    color: black;
+    font-size: 15px;
+    border-color: white;
+}
+
+th, td{
+    text-align: center;
+    border: 2px solid #071a3d ;
+}
+th{
+    background-color: #071a3d ;
+    color: white;
+
+}
+td{
+    color: #fff;
+    background: tomato;
+}
+
+.middle{
+    height:20px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Transfer money */
+.container{
+    position: relative;
+    width:500px;
+    padding-left: 20px;
+}
+form{
+    font-size: 20px;
+    font-weight:20px;
+    text-align: center;
+    margin: auto;
+    padding-top: 150px;
+}
+label{
+    padding: 20px;
+    justify-content: left;
+    font-weight: 100px;
+}
+.container input{
+    width:100%;
+    clear: both;
+    height: 25px;
+}
+.click{
+    margin-top: 30px;
+    width: 20px;
+    background-color:tomato;
+    color: white;
+    font-size: 25px;
+}
+.click:hover{
+    background-color: black
+}
+
+#tran{
+    background: url("tran_image.jpg");
+    background-size: 1600px;
+    background-repeat: no-repeat center center/cover;
+    background-attachment: fixed;
+    padding: 30px 40px;
+    margin:0;
+   
+}
