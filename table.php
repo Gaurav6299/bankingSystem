@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100" id="user">
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 <a href ="" class="navbar-brand"><img src="bank.jpeg" alt="bankofindia" class="logo"></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
